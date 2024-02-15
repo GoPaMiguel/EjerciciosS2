@@ -55,3 +55,5 @@ ganado.
 20.Introducir 5 notas por teclado, obtener la suma de las notas, el promedio de las
 mismas y el doble de las notas.
 
+
+<Miguel González Pacheco>
