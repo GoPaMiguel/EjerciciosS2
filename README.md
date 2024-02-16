@@ -26,9 +26,9 @@
 
 9. Programa que obtenga el IVA sobre una cantidad dada por el usuario.
 
-   10.Hallar el área de un triángulo
+10.Hallar el área de un triángulo
 
-10. Hallar el área de un rectángulo
+11. Hallar el área de un rectángulo
 
 12.Introducir tres números por teclado, hallar el promedio de los tres números, la suma
 y desplegar del primer número el doble, del segundo número el triple y del tercer
