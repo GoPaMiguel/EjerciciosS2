@@ -62,15 +62,15 @@ mismas y el doble de las notas.
 22.Introducir un número real, mostrar la parte entera y la parte decimal del número.
 
 23.Juego del Rojo-amarillo-verde. El programa genera tres dígitos aleatorios distintos
-   entre 0 y 9. A estos dígitos se les asignan las posiciones 1, 2 y 3. El objetivo del
-   juego es adivinar los dígitos así como sus posiciones correctas en el menor número
-   de intentos posibles. Para cada intento, el jugador proporciona tres dígitos para las
-   posiciones 1, 2, y 3. El programa responde con una pista que consta de rojo,
-   amarillo y verde. Si un dígito adivinado está en la posición correcta la respuesta es
-   verde. Si el digito adivinado está en posición incorrecta, la respuesta es amarillo. Si
-   el dígito para una posición dada no coincide con ninguno de los tres dígitos, la
-   respuesta es rojo.
-   Ejemplo: dígitos 6,5,8 en las posiciones 1,2,3.
+entre 0 y 9. A estos dígitos se les asignan las posiciones 1, 2 y 3. El objetivo del
+juego es adivinar los dígitos así como sus posiciones correctas en el menor número
+de intentos posibles. Para cada intento, el jugador proporciona tres dígitos para las
+posiciones 1, 2, y 3. El programa responde con una pista que consta de rojo,
+amarillo y verde. Si un dígito adivinado está en la posición correcta la respuesta es
+verde. Si el digito adivinado está en posición incorrecta, la respuesta es amarillo. Si
+el dígito para una posición dada no coincide con ninguno de los tres dígitos, la
+respuesta es rojo.
+Ejemplo: dígitos 6,5,8 en las posiciones 1,2,3.
 
 24.Programa que de acuerdo a una cantidad de pulgadas ingresadas por teclado,
 realice la conversión a centímetros. (1plg=2.54cm).
@@ -94,5 +94,89 @@ cuenta el número leído de teclado (ej. 7,6,5,4,3,2,1,0).
 30.Que permita leer el valor correspondiente a una distancia en kilómetros y las
 visualice expresadas en metros.
 
+
+<Ejercicios del 31 al 50>
+
+31.Construir un programa que permita calcular el área de un triángulo. El usuario
+ingresará la base y la altura en milímetros y el sistema mostrará los resultados en
+milímetros, centímetros y metros cuadrados respectivamente.
+
+32.Construir un programa que permita calcular el área de un rectángulo, los datos se
+ingresan en metros y se espera ver los resultados en metros, centímetros y
+milímetros cuadrados.
+
+33.Una empresa almacena los datos de N empleados, para esto, en un proceso
+repetitivo se ingresa el sexo y el salario de cada empleado. Se pide calcular:
+a) La cantidad de personas que ganan más de 700 al mes.
+b) El promedio de salarios.
+c) El porcentaje de mujeres que trabajan en esa empresa
+d) El porcentaje de varones que trabajan en esa empresa
+
+34.Dado el monto de una compra calcular el descuento considerado -descuento es
+10% si el monto es mayor a 1000 pesos -descuento es 20% si el monto es mayor a
+500 pesos y menor o igual a 1000 pesos -no hay descuento si el monto es mayor o
+igual a 500 pesos .
+
+35.A un profesor le pagan según sus horas y una tarifa de pago por horas. Si la
+cantidad de horas trabajadas es mayor a 40 horas, la tarifa se incrementa en un
+50 % para las horas extras. Calcular el salario del profesor dadas las horas
+trabajadas y la tarifa.
+
+36.En un estacionamiento cobran $15.00 por hora o fracción. Diseñe un algoritmo que
+determine cuánto debe pagar un cliente por el estacionamiento de su vehículo,
+conociendo el tiempo de estacionamiento en horas y minutos.
+
+37.Hacer lo mismo que el ejercicio anterior pero ahora suponer que después de una
+hora de estacionamiento si los minutos no excedan los 10, no se le cobra la hora;
+es decir, si el cliente ocupa el estacionamiento una hora 8 minutos, se le cobra sólo
+una hora, otro ejemplo sería si el cliente ocupa el estacionamiento 2 horas 15
+minutos, se le cobra 3 horas de estacionamiento
+
+38.Una persona por cada año de vida debe consumir 8 kilogramos de fruta. Dada la
+edad de una persona, imprimir cuántos gramos de fruta ha consumido y
+adicionalmente si una manzana pesa en promedio 4 gramos, determinar cuántas
+manzanas ha consumido.
+
+39.Una persona pasa el 34 por ciento de su vida durmiendo. Dado el año de
+nacimiento, el año actual y el nombre de una persona, imprimir cuántos días ha
+dormido.
+
+40.Construir una calculadora minera, la cual permita saber a cuántos pesos equivalen
+los kilos de oro ingresados. El usuario deberá ingresar tanto los kilos a convertir
+como el precio en pesos por onza de oro. Recordemos que una onza equivale a
+28.3495 gramos y que 1000 gramos son un kilo.
+
+41.El cabello de los seres humanos crece en promedio medio centímetros por mes. Si
+una persona no cortará nunca su cabello desde su nacimiento determinar según la
+edad ingresada cuántos metros mide la caballera?.
+
+42.Una naranja tiene la capacidad de producir 0.05 voltios. Si un sistema de
+iluminación requiere de x kilovoltios para su funcionamiento. Cuántas naranjas
+realizan el trabajo deseado. Adicionalmente, si cada naranja pesa en promedio 6
+gramos. ¿Cuántas toneladas son necesarias?
+
+43.Crear una función que calcule cual es el número menor de dos números enteros
+
+44.Realiza un programa que calcule las potencias de la 2 a la 10 del número PI y la
+raíz cuadrada de dicha potencia. Para ello construye una función que calcule la
+potencia n-ésima de un número cualquiera y utiliza después la función sqrt de la
+librería matemática de C.
+
+45.Crear un función que reciba un número real y devuelva un número entero con el
+valor: -1 si el número es negativo, 1 si el número es positivo o 0 si es cero.
+
+46.Que permita leer el valor correspondiente a una distancia en millas y las visualice
+expresadas en metros. Sabiendo que 1 milla marina equivale a 1852 metros.
+
+47.Que escriba el porcentaje descontado en una compra, introduciendo la cantidad
+comprada, el precio (valor) de la compra y el precio (valor) pagado.
+
+48.Facilite el ingreso de dos números enteros y/o reales, muestre su suma, resta,
+multiplicación, división y el resto (módulo) de la división.
+
+49.Crear una función que devuelva la primera letra de una cadena de texto.
+
+50.Facilite el ingreso de tres números enteros y/o reales, muestre su respectiva suma
+y multiplicación
 
 <Miguel González Pacheco>
