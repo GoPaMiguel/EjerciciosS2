@@ -4,9 +4,9 @@ public class Ejercicio36 {
 
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
-        System.out.print("Ingrese la cantidad de horas trabajadas: ");
+        System.out.print("Ingrese la cantidad de horas: ");
         double horas = scanner.nextDouble();
-        System.out.print("Ingrese la cantidad de minutos trabajados: ");
+        System.out.print("Ingrese la cantidad de minutos : ");
         double minutos = scanner.nextDouble();
 
         double costoEstacionamiento = calcularCostoEstacionamiento(horas, minutos);
